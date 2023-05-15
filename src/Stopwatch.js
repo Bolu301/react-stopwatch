@@ -13,7 +13,7 @@ const Timer = ({ time, setTime, btnstyle }) => {
       clearInterval(interval);
     }
     return () => clearInterval(interval);
-  }, [running]);
+  });
 
   return (
     <div className="stopwatch text-center mt-9">
